@@ -1,0 +1,38 @@
+<회원가입>
+ - 이미 되어 있는 분은 안하셔도 됨..
+ - www.oracle.com
+ - 최초 접속 후 PopUp창 -> 쿠기 [모두승인] 버튼클릭
+ - 가입 시 사용한 email 계정으로 [승인메일] 확인해야 함
+
+ - 다운로드 : Oracle 21c EX-DB, JDK17, SQL Developer Tool
+   (3개 다운로드)
+
+ * 설치 순서
+   1. JDK17 install(설치) 및 환경설정
+     * 설치 : next 디폴트 설치
+     * 환경설정
+       - 내컴퓨터 마우스 오른쪽 클릭 > 속성 선택 > 고급시스템설정 선택
+         > 시스템설정 popup > 환경변수 선택
+       - 시스템변수 영역에서 아래 추가 및 편집
+          -- [새로만들기] >
+             --- 변수명 : JAVA_HOME
+             --- 변수값 : C:\Program Files\Java\jdk-17
+
+          -- path 편집 선택 > 추가 선택
+             --- %JAVA_HOME%\bin 
+
+   2. Oracle 21c EX-DB install(설치) : 압축 풀고 -> 설치 중 패스워드 입력이 나오면 "dbdb"로 통일
+    
+
+   3. SQL Developer Tool : 설치 버전이 아닙니다. 압축만 풀어 놓으면 됩니다.
+
+
+
+
+
+
+
+
+
+
+
