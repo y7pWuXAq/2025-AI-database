@@ -36,7 +36,7 @@
 CREATE TABLE test_tb(
     -- 컬럼 만들기
     -- 컬럼 이름 타입(길이 byte) Null 여부
-      id VARCHAR2(15) NOT NULL,
+    id VARCHAR2(15) NOT NULL,
     pw VARCHAR2(50) NOT NULL,
     -- Null의 여부를 정의하지 않으면 기본적으로 Null
     name VARCHAR2(20)
